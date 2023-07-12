@@ -1,4 +1,7 @@
-// make the games ships
+// start game
+
+
+// human ship
     class USS {
         constructor(shipHealth, strengthOfBlast, accuracyOfFire) {
             this.shipHealth = shipHealth;
@@ -6,7 +9,15 @@
             this.accuracyOfFire = accuracyOfFire;
         }
     } 
+    // human attack
+    if (Math.random()< alien[0].accuracy) {
+        
+    }
+        // measuer math of attack ( health = hull - attack ) 
+        //     if hull<0 die else alien turn
 
+
+// alien ship
     class alien {
         constructor(shipHealth, strengthOfBlast, accuracyOfFire) {
             this.hull = hull;
@@ -15,17 +26,24 @@
         }
     } 
 
-
-//game turn
-    if playr 1 attack 
-        measuer math of attack ( health = hull - attack ) 
-            if hull<0 die else alien turn
-
+    // alien attack
     alien attack second
         measuer math of attack ( health = hull - attack ) 
             if hull<0 die else player turn
 
-//endgame result
+
+//game make it take turns   
+    //if else on a loop?
+   
+
+// accruacy code give
+//  if (Math.random()< alien[0].accuracy) {
+//     console.log('You have been hit!');
+//  }
+// this is actually the logic for attack 
+
+
+// endgame result
     if player.hull <= 0 
         "alien wins"
 
